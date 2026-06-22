@@ -35,8 +35,14 @@ function Card({ m }: { m: Member }) {
         )}
       </div>
       <div className="p-4 pointer-events-none">
-        <h3 className="font-bold text-[#1a3057] leading-tight">{m.name}</h3>
-        <p className="text-sm text-gray-400 mt-1 leading-snug">{m.role}</p>
+        {m.name ? (
+          <>
+            <h3 className="font-bold text-[#1a3057] leading-tight">{m.name}</h3>
+            <p className="text-sm text-gray-400 mt-1 leading-snug">{m.role}</p>
+          </>
+        ) : (
+          <h3 className="font-bold text-[#1a3057] leading-snug">{m.role}</h3>
+        )}
         {m.email && (
           <p className="block mt-3 text-xs text-[#c9870a] truncate">✉ {m.email}</p>
         )}

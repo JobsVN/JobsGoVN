@@ -1,16 +1,15 @@
 const COUNTRIES = [
-  { flag: '🇵🇱', name: 'Польща' },
   { flag: '🇩🇪', name: 'Німеччина' },
-  { flag: '🇨🇿', name: 'Чехія' },
   { flag: '🇳🇱', name: 'Нідерланди' },
-  { flag: '🇧🇪', name: 'Бельгія' },
-  { flag: '🇦🇹', name: 'Австрія' },
   { flag: '🇫🇷', name: 'Франція' },
-  { flag: '🇸🇰', name: 'Словаччина' },
-  { flag: '🇷🇴', name: 'Румунія' },
-  { flag: '🇭🇷', name: 'Хорватія' },
-  { flag: '🇱🇹', name: 'Литва' },
-  { flag: '🇪🇪', name: 'Естонія' },
+  { flag: '🇵🇱', name: 'Польща' },
+  { flag: '🇨🇿', name: 'Чехія' },
+  { flag: '🇮🇹', name: 'Італія' },
+  { flag: '🇬🇷', name: 'Греція' },
+  { flag: '🇫🇮', name: 'Фінляндія' },
+  { flag: '🇸🇪', name: 'Швеція' },
+  { flag: '🇦🇹', name: 'Австрія' },
+  { flag: '🇧🇪', name: 'Бельгія' },
 ];
 
 export default function Countries() {
