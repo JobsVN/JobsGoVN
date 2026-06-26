@@ -10,8 +10,7 @@ export default function Hero({ onConsult }: HeroProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1a3057] leading-tight mb-6">
-            Робота в Європі —<br />
-            офіційно і без стресу
+            Знайдіть офіційну роботу в Європі вже цього тижня
           </h1>
           <p className="text-gray-500 text-base sm:text-lg leading-relaxed mb-4 max-w-2xl mx-auto">
             Ви просто подаєте заявку — ми робимо все інше. Підбираємо гарячі вакансії,
